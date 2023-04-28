@@ -47,6 +47,14 @@ b{
     bottom:80px;
     left: 38px;
 }
+.sostenibility-n2{
+    padding: 5px 3px;
+    font-size: bold;
+    background-color: green;
+    position: absolute;
+    bottom:80px;
+    left: 0;
+}
 .heart{
     color:black;
     padding: 12px 12px;
