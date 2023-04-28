@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.row{
+    display: flex;
+    row-gap: 20px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+.column{
+    flex-basis:calc(100% / 3 - 20px);
+    border: 2px solid black;
+    min-height: 100px;
+}
