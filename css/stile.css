@@ -18,14 +18,17 @@ img{
 b{
     display: block;
 }
+li{
+    list-style-type: none;
+}
 .container{
     max-width: 1000px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
-.nav-container{
+.nav-footer-container{
     max-width: 1000px;
     margin:0 auto;
   
@@ -42,7 +45,7 @@ b{
 .navbar-logo{
     flex-grow: 1;
 }
-.navbar-actions{
+.navbar-footer-actions{
     text-align: right;
 }
 .row{
@@ -114,4 +117,7 @@ b{
 #logo{
     height: 40px;
     margin-left: 180px;
+}
+.bgc-black{
+    background-color: black;
 }
