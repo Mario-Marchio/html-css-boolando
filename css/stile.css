@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    display: block;
+    max-width: 100%;
+}
+b{
+    display: block;
+}
 .container{
     max-width: 1000px;
     margin: 50px auto;
@@ -17,4 +24,51 @@
     flex-basis:calc(100% / 3 - 20px);
     border: 2px solid black;
     min-height: 100px;
+}
+.card{
+    position: relative;
+}
+.color-white{
+    color:white ;
+}
+.discount{
+    padding: 5px 3px;
+    font-size: bold;
+    background-color: red;
+    position: absolute;
+    bottom:80px;
+    left: 0;
+}
+.sostenibility{
+    padding: 5px 3px;
+    font-size: bold;
+    background-color: green;
+    position: absolute;
+    bottom:80px;
+    left: 38px;
+}
+.heart{
+    color:black;
+    padding: 12px 12px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.new-price{
+    color: red;
+    font-size: 0.8rem;
+}
+.old-price{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+}
+.img2{
+    display: none;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .img2{
+    display: block;
 }
